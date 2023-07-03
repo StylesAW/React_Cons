@@ -1,0 +1,29 @@
+#footer{
+    background-color:rgba(50, 50, 50, 0.6);
+    height: 200px;
+	font-weight: 600;
+}
+
+.icon-fill-white{
+    fill: white;
+  }
+
+  .icon{
+	transition: transform 0.3s;
+}
+
+.icon:hover{
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+}
+
+
+#footer-abs{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
